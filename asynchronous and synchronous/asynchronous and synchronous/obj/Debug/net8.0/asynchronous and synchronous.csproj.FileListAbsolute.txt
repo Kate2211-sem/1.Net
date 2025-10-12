@@ -1,0 +1,14 @@
+D:\.NET\asynchronous and synchronous\asynchronous and synchronous\bin\Debug\net8.0\asynchronous and synchronous.exe
+D:\.NET\asynchronous and synchronous\asynchronous and synchronous\bin\Debug\net8.0\asynchronous and synchronous.deps.json
+D:\.NET\asynchronous and synchronous\asynchronous and synchronous\bin\Debug\net8.0\asynchronous and synchronous.runtimeconfig.json
+D:\.NET\asynchronous and synchronous\asynchronous and synchronous\bin\Debug\net8.0\asynchronous and synchronous.dll
+D:\.NET\asynchronous and synchronous\asynchronous and synchronous\bin\Debug\net8.0\asynchronous and synchronous.pdb
+D:\.NET\asynchronous and synchronous\asynchronous and synchronous\obj\Debug\net8.0\asynchronous and synchronous.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\asynchronous and synchronous\asynchronous and synchronous\obj\Debug\net8.0\asynchronous and synchronous.AssemblyInfoInputs.cache
+D:\.NET\asynchronous and synchronous\asynchronous and synchronous\obj\Debug\net8.0\asynchronous and synchronous.AssemblyInfo.cs
+D:\.NET\asynchronous and synchronous\asynchronous and synchronous\obj\Debug\net8.0\asynchronous and synchronous.csproj.CoreCompileInputs.cache
+D:\.NET\asynchronous and synchronous\asynchronous and synchronous\obj\Debug\net8.0\asynchronous and synchronous.dll
+D:\.NET\asynchronous and synchronous\asynchronous and synchronous\obj\Debug\net8.0\refint\asynchronous and synchronous.dll
+D:\.NET\asynchronous and synchronous\asynchronous and synchronous\obj\Debug\net8.0\asynchronous and synchronous.pdb
+D:\.NET\asynchronous and synchronous\asynchronous and synchronous\obj\Debug\net8.0\asynchronous and synchronous.genruntimeconfig.cache
+D:\.NET\asynchronous and synchronous\asynchronous and synchronous\obj\Debug\net8.0\ref\asynchronous and synchronous.dll
