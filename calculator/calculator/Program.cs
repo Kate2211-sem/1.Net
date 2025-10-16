@@ -1,64 +1,55 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-Console.WriteLine("Enter first number");
-string input=Console.ReadLine();
-int result;
-    while (!int.TryParse(input, out result))
-    {
-        Console.WriteLine("No correct");
-        input = Console.ReadLine();
-    }
-
-    Console.WriteLine("Enter second number");
-string input2 = Console.ReadLine();
-int result2;
-    while (!int.TryParse(input2, out result2))
-    {
-        Console.WriteLine("No correct");
-        input = Console.ReadLine();
-    }
-    Console.WriteLine("choose an operation");
-Console.WriteLine("+");
-Console.WriteLine("-");
-Console.WriteLine("*");
-Console.WriteLine("/");
-char operation=Console.ReadKey().KeyChar;
-Console.WriteLine();
-switch(operation)
-    {
-    case '+':
-        Console.WriteLine($"{result} + {result2} = {result + result2}");
-        break;
-    case '-':
-        Console.WriteLine($"{result} - {result2} = {result - result2}");
-        break;
-    case '*':
-        Console.WriteLine($"{result} * {result2} = {result * result2}");
-        break;
-    case '/':
-        if (result2 == 0)
-        {
-            Console.WriteLine("Cannot divide by zero.");
-        }
-        else
-        {
-            Console.WriteLine($"{result} / {result2} = {(double)result / result2}");
-        }
-        break;
-        default:
-            Console.WriteLine("Unknown operation.");
-        break;
-    }
-Console.WriteLine("Do you want to continue(y/n)");
-char choose =Console.ReadKey().KeyChar;
-Console.WriteLine();
-if (choose == 'n' || choose == 'N'|| choose !='y')
+﻿using System;
+class Program
 {
+    static void Main()
+    {
+            double num1 = Read("Enter first number:");
+            double num2 = Read("Enter second number:");
+            Console.WriteLine("Choose an operation: +  -  *  /");
+            char operation = Console.ReadKey().KeyChar;
+            Console.WriteLine();
+            switch (operation)
+            {
+                case '+':
+                    Console.WriteLine($"{num1} + {num2} = {num1 + num2}");
+                    break;
+                case '-':
+                    Console.WriteLine($"{num1} - {num2} = {num1 - num2}");
+                    break;
+                case '*':
+                    Console.WriteLine($"{num1} * {num2} = {num1 * num2}");
+                    break;
+                case '/':
+                    if (num2 == 0)
+                        Console.WriteLine("Cannot divide by zero.");
+                    else
+                        Console.WriteLine($"{num1} / {num2} = {num1 / num2}");
+                    break;
+                default:
+                    Console.WriteLine("Unknown operation.");
+                    break;
+            }
+            Console.WriteLine("Do you want to continue? (y/n)");
+            char choice = Console.ReadKey().KeyChar;
+            Console.WriteLine();
+            if (choice == 'n' || choice == 'N'|| choice != 'y'|| choice != 'Y')
+            {
+                Console.WriteLine("Goodbye!");
+                return;
+            }
+    }
+    static double Read(string prompt)
+    {
+        Console.WriteLine(prompt);
+        string input = Console.ReadLine();
+        double number;
 
-    Console.WriteLine("Goodbye!");
-    return;
+        while (!double.TryParse(input, out number))
+        {
+            Console.WriteLine("Incorrect input. Try again:");
+            input = Console.ReadLine();
+        }
 
+        return number;
+    }
 }
-
-
-

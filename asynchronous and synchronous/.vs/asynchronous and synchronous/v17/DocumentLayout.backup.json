@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\.NET\\asynchronous and synchronous\\",
+  "WorkspaceRootPath": "D:\\.NET\\1\\asynchronous and synchronous\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A34F0E6-74F1-4417-99F1-D5CD0E2A83A3}|asynchronous and synchronous\\asynchronous and synchronous.csproj|d:\\.net\\asynchronous and synchronous\\asynchronous and synchronous\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5A34F0E6-74F1-4417-99F1-D5CD0E2A83A3}|asynchronous and synchronous\\asynchronous and synchronous.csproj|d:\\.net\\1\\asynchronous and synchronous\\asynchronous and synchronous\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5A34F0E6-74F1-4417-99F1-D5CD0E2A83A3}|asynchronous and synchronous\\asynchronous and synchronous.csproj|solutionrelative:asynchronous and synchronous\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\.NET\\asynchronous and synchronous\\asynchronous and synchronous\\Program.cs",
+              "DocumentMoniker": "D:\\.NET\\1\\asynchronous and synchronous\\asynchronous and synchronous\\Program.cs",
               "RelativeDocumentMoniker": "asynchronous and synchronous\\Program.cs",
-              "ToolTip": "D:\\.NET\\asynchronous and synchronous\\asynchronous and synchronous\\Program.cs",
+              "ToolTip": "D:\\.NET\\1\\asynchronous and synchronous\\asynchronous and synchronous\\Program.cs",
               "RelativeToolTip": "asynchronous and synchronous\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAqwCQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-10T19:44:04.023Z",
               "EditorCaption": ""
